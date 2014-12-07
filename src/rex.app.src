@@ -1,0 +1,13 @@
+{application, rex,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {modules, [mylists]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { rex_app, []}},
+  {env, []}
+ ]}.
